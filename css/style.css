@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background: url(../images/pic/bg2.png);
+}
+
+.conteiner {
+	width: 980px; 
+	margin: 0 auto;
+	/*border: 1px solid white;*/
+}
+
+.header {
+	position: relative; /* Чтобы помещенный внутрь контейнер наследовал свойства */
+	height: 130px;
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	position: absolute;
+	left: 402px; /* Положение от левого края */
+	bottom: 18px; /* Положение от низа */		
+}
+
+.top-menu {
+	border-bottom: 2px solid  #a0a0a0;
+	border-top: 2px solid  #a0a0a0;
+	height: 40px;
+	width: 100%;
+}
+
+.top-menu ul {
+	list-style: none;
+	margin-left: 330px;
+}
+
+.top-menu li {
+	display: inline-block;
+	margin-left: 35px;
+	
+}
+
+.top-menu li a {
+	font-size: 15px;
+	color: #a0a0a0; /*160,160,160*/
+    font-family: pragmatica, arial, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;	
+	line-height: 40px;
+}
+
+.top-menu li a:hover {
+	/*text-decoration: overline;*/
+	color: #000;
+}
+
+.content-wp {
+	margin-top: 20px;
+}
+
+.category-list {
+	float: left;
+	width: 360px;
+	border-right: 2px solid  #a0a0a0;
+	margin-left: 15px;
+	background: url('../images/pic/main_menu_background.jpg');
+	background-position: 0px -140px;
+}
+
+.category-list ul{
+	font-size: 14px;
+	color: #a0a0a0;
+	text-transform: uppercase;
+}
+
+.category-list ul li {
+	margin-bottom: 10px;	
+}
+
+.category-list ul li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	list-style: circle;
+	color: #000;
+}
+
+.product-icons-box {
+	float: left;
+	width: 580px;
+	padding-left: 15px;
+}
+
+.content-wp:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.product-icons-box .icon-wp {
+	float: left;
+	margin: 0 15px 15px 0;
+	width: 84px;
+	height: 84px;
+	background: #a0a0a0;
+}
+
+.footer {
+	border-top: 2px solid  #a0a0a0;	
+	height: 30px;
+	margin-top: 10px;
+}
+
+.footer ul{
+	list-style: none;
+	margin-left: 390px;
+}
+
+.footer ul li {
+	display: inline-block;
+	/*border-left: 1px solid #a0a0a0;*/
+	margin-right: 10px;
+	padding-left: 10px;
+}
+
+.footer li a {
+	font-size: 16px;
+	color: #a0a0a0;
+	line-height: 30px;
+}
+
+.footer li a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+      
+   
+   
+   

@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;	
+	
+}
+
+.allsite {
+		width: 980px;
+		margin: auto;
+		/*border: 1px solid white;*/
+}
+
+.zagolovok {
+	position: relative; /* Чтобы помещенный внутрь контейнер наследовал свойства */
+	height: 180px;
+	/*border: 1px solid red;*/
+}
+
+
+.rollover-mainpage-pic {
+	background: url(../pic/menu_graphic_back_1.png); 
+	display: block; 
+	width: 344px; 
+	height: 30px; 
+}
+
+.rollover-mainpage-pic:hover {
+	background: url(../pic/menu_graphic_back_2.png);
+}
+
+.contact {
+	position: absolute; /* Чтобы помещенный внутрь контейнер наследовал свойства */
+	left: 16px; /* Положение от левого края */
+	bottom: 30px; /* Положение от низа */
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	position: absolute;
+	left: 402px; /* Положение от левого края */
+	bottom: 40px; /* Положение от низа */
+		
+}
+
+.adress {
+	position: relative;
+	width: 550px; 
+	height: 250px;
+	left: 402px;
+	/*border: 1px solid red;*/
+	
+}
+p {color: white;
+	font-size: 12px;
+	font-family: Pragmatica, sans-serif;
+	text-align: left;
+	line-height: 1.8;
+	}
+	
+.clear {
+    clear: left; 
+ }
+
